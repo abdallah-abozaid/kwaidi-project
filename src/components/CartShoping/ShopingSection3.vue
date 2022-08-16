@@ -13,8 +13,8 @@
       </label>
     </div>
 
-    <div class="row row-cols-1 row-cols-md-2 g-4">
-      <div class="col-12 col-md-8">
+    <div class="row row-cols-1 row-cols-lg-2 g-4">
+      <div class="col-12 col-lg-8">
         <div class="card mb-4">
           <div class="card-body">
             <ClothesCart />
@@ -36,7 +36,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-4 mb-4">
+      <div class="col-12 col-lg-4 mb-4">
         <div class="card">
           <div class="card-body">
             <OrderSammary />

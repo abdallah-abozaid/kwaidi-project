@@ -158,7 +158,7 @@ export default {
     display: flex;
     position: relative;
     & > span {
-      font-size: 12px;
+      font-size: 10px;
       width: 60px;
       font-weight: 700;
       display: flex;
@@ -231,7 +231,7 @@ export default {
   font-weight: 700;
   justify-content: center;
   border: 1px solid #ccc;
-  font-size: 12px;
+  font-size: 10px;
 }
 .form-switch {
   padding: 0;
@@ -261,6 +261,9 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 30px;
+}
+nav a.router-link-exact-active {
+  color: #3ac2cb;
 }
 //responsive
 @media (max-width: 992px) {

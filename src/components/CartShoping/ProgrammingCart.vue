@@ -269,4 +269,9 @@ hr {
     }
   }
 }
+@media (max-width: 576px) {
+  .inner {
+    width: 100%;
+  }
+}
 </style>

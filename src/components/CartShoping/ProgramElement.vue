@@ -104,6 +104,57 @@ export default {
     margin-top: 20px;
   }
 }
+@media (max-width: 576px) {
+  .form-check-label {
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    display: block;
+    .flex {
+      display: block;
+      padding-top: 8px;
+    }
+    div {
+      margin: 12 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    & > div > img {
+      width: 70px;
+    }
+    .title {
+      margin-bottom: 5px;
+    }
+    .subtitle {
+      font-size: 10px;
+      margin: 0;
+    }
+    .oldPrice {
+      margin-bottom: 0px;
+      font-size: 12px;
+    }
+    .newPrice {
+      font-size: 11px;
+      margin-bottom: 0px;
+    }
+    .inputs {
+      justify-content: center;
+      margin-top: 0px;
+      margin-bottom: 10px;
+      input {
+        width: 50px;
+        font-size: 13px;
+      }
+    }
+  }
+  .deleteBTN {
+    display: flex;
+    justify-content: center !important;
+  }
+}
 </style>
 <style>
 .form-check {

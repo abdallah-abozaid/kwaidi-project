@@ -157,7 +157,11 @@ export default {
       display: flex;
       align-items: center;
       font-size: 12px;
-
+      transition: all 0.3s linear;
+      &:hover {
+        transform: translateY(-2px);
+        opacity: 0.9;
+      }
       a {
         color: #5f5f5f;
       }
@@ -195,10 +199,10 @@ export default {
     justify-content: center !important;
     margin-bottom: 10px !important;
   }
-  h5 {
+  h6 {
     margin-bottom: 15px !important;
   }
-  .title h5::after {
+  .title h6::after {
     right: 20% !important;
     width: 60% !important;
   }

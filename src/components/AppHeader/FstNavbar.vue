@@ -107,9 +107,14 @@ export default {
     font-size: 12px;
   }
   .dropdown .dropdown-menu {
-    border: 1px solid #ddd !important;
-    border-radius: 20px;
-    box-shadow: 1px 1px 4px rgb(243, 243, 243);
+    border-radius: 14px;
+    background: #fafafa;
+    border: 1px solid #f7f7f7 !important;
+    padding: 5px 10px;
+    li {
+      border-bottom: 1px solid rgba(217, 217, 217, 1) !important;
+      font-size: 12px;
+    }
   }
   .dropdown-toggle::after {
     border-top: 0.35em solid #5f5f5f;

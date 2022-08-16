@@ -108,6 +108,11 @@ export default {
   width: 90%;
   height: 110px;
 }
+@media (max-width: 576px) {
+  .swiper {
+    height: 140px;
+  }
+}
 </style>
 <style>
 .swiper-button-next,
