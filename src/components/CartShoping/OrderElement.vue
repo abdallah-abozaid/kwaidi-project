@@ -87,10 +87,10 @@ export default {
     width: 90px;
   }
   .title {
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 13px;
     margin-bottom: 10px;
     color: #5f5f5f !important;
+    font-family: "DIN Next LT Arabic bold", sans-serif;
   }
   .subtitle {
     font-size: 10px;
@@ -99,13 +99,13 @@ export default {
   .oldPrice {
     text-decoration: line-through;
     color: #9a9a9a;
-    font-weight: 600;
+    font-family: "DIN Next LT Arabic bold", sans-serif;
     margin-bottom: 2px;
     font-size: 12px;
     text-align: center;
   }
   .newPrice {
-    font-weight: 600;
+    font-family: "DIN Next LT Arabic bold", sans-serif;
     font-size: 12px;
     text-align: center;
   }
@@ -116,7 +116,7 @@ export default {
     button {
       background: transparent;
       border: none;
-      font-weight: 700;
+      font-family: "DIN Next LT Arabic bold", sans-serif;
       font-size: 20px;
       img {
         width: 18px;

@@ -1,6 +1,6 @@
 <template>
   <div class="Section2 mt-5 mt-md-4 mb-5">
-    <h5 class="title mb-1">المتاجر المميزة</h5>
+    <h4 class="title mb-1">المتاجر المميزة</h4>
     <swiper
       :slides-per-view="8"
       :space-between="20"

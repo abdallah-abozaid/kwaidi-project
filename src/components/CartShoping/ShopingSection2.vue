@@ -8,7 +8,7 @@
         </label>
       </div>
     </div>
-    <h5 class="mb-2">عربة التسوق</h5>
+    <h5 class="mb-4">عربة التسوق</h5>
     <div class="cards mt-3">
       <div class="row row-cols-1 row-cols-md-2 gx-5 gy-2">
         <div class="col">
@@ -53,6 +53,9 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+h5 {
+  font-family: "DIN Next LT Arabic mediam", sans-serif;
+}
 .card {
   border: 2px solid rgba(217, 217, 217, 1);
   border-radius: 20px;
@@ -64,7 +67,7 @@ export default {
       display: flex;
       justify-content: flex-start;
       align-items: center;
-      font-size: 13px;
+      font-size: 14px;
       img {
         width: 19px;
       }
@@ -74,7 +77,7 @@ export default {
       }
     }
     .desc {
-      font-size: 12px;
+      font-size: 15px;
       color: #353535;
       font-weight: 500;
     }
@@ -85,8 +88,8 @@ export default {
     background: #fafafa;
     border-radius: 10px;
     border: none;
-    font-weight: 500;
-    font-size: 13px;
+    font-size: 15px;
+    font-family: "DIN Next LT Arabic bold", sans-serif;
     color: #3ac2cb;
   }
 }

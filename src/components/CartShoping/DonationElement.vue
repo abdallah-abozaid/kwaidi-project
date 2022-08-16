@@ -84,10 +84,10 @@ export default {
     width: 90px;
   }
   .title {
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 13px;
     margin-bottom: 10px;
     color: #5f5f5f !important;
+    font-family: "DIN Next LT Arabic bold", sans-serif;
   }
   .newPrice {
     font-weight: 600;
@@ -167,6 +167,7 @@ nav input {
     }
     .title {
       margin-bottom: 5px;
+      font-family: "DIN Next LT Arabic bold", sans-serif;
     }
     .subtitle {
       font-size: 10px;
@@ -174,10 +175,12 @@ nav input {
     .oldPrice {
       margin-bottom: 0px;
       font-size: 12px;
+      font-family: "DIN Next LT Arabic bold", sans-serif;
     }
     .newPrice {
       font-size: 11px;
       margin-bottom: 0px;
+      font-family: "DIN Next LT Arabic bold", sans-serif;
     }
     .inputs {
       justify-content: center;

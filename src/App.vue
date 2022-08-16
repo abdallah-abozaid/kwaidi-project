@@ -19,7 +19,18 @@ export default {
 };
 </script>
 <style lang="scss">
-@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@500&display=swap");
+@font-face {
+  font-family: "DIN Next LT Arabic bold";
+  src: url(../public/fonts/BOLD.otf);
+}
+@font-face {
+  font-family: "DIN Next LT Arabic mediam";
+  src: url(../public/fonts/MEDIUM.otf);
+}
+@font-face {
+  font-family: "DIN Next LT Arabic light";
+  src: url(../public/fonts/LIGHT.otf);
+}
 @keyframes moving {
   0% {
     transform: translateY(0);
@@ -43,7 +54,7 @@ export default {
 }
 #app {
   direction: rtl;
-  font-family: "Noto Kufi Arabic", sans-serif;
+  font-family: "DIN Next LT Arabic mediam", sans-serif;
   font-style: normal;
   overflow: hidden;
 }
@@ -63,13 +74,14 @@ nav {
     }
   }
 }
-h5.title {
+h4.title {
   position: relative;
   padding-right: 10px;
   padding-top: 5px;
   color: rgba(95, 95, 95, 1);
+  font-family: "DIN Next LT Arabic mediam", sans-serif;
 }
-h5.title::after {
+h4.title::after {
   content: "";
   background-color: #3ac2cb;
   width: 3px;

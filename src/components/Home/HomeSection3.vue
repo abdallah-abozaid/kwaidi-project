@@ -3,9 +3,9 @@
     <div class="row">
       <div class="col-12 col-lg-7 d-flex align-items-center">
         <div>
-          <h5 class="mb-3">
+          <h4 class="mb-3">
             ابدأ البيع معنا للوصول لاكثر من + مليون عميل يومياً
-          </h5>
+          </h4>
           <p class="desc mb-4">
             تأسست منصة كوايدي مول عام 2016 حيث تنوعت بخدمات ومزايا وتقنيات
             منافسة بين المنصات المحلية للانشطة التجارية والخدمية بجميع القطاعات
@@ -77,13 +77,14 @@ export default {
   }
   margin-top: 50px;
 }
-h5 {
-  font-weight: 600;
+h4 {
   color: rgba(95, 95, 95, 1);
+  font-family: "DIN Next LT Arabic mediam", sans-serif;
 }
 .desc {
-  font-size: 12px;
+  font-size: 14px;
   color: rgba(95, 95, 95, 1);
+  font-family: "DIN Next LT Arabic mediam", sans-serif;
 }
 .cards {
   width: 70%;
@@ -149,8 +150,9 @@ h5 {
   padding: 12px;
   width: 250px;
   color: #fff;
-  font-size: 14px;
+  font-size: 18px;
   transition: all 0.3s linear;
+  font-family: "DIN Next LT Arabic light", sans-serif;
   &:hover {
     background: #fff;
     border-radius: 9px;

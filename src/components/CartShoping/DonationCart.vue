@@ -112,13 +112,13 @@ hr {
   }
   p {
     margin: 0 10px;
-    font-weight: 600;
+    font-family: "DIN Next LT Arabic bold", sans-serif;
     color: #5f5f5f;
     font-size: 13px;
   }
 }
 .title {
-  font-weight: 600;
+  font-family: "DIN Next LT Arabic bold", sans-serif;
   margin-bottom: 10px;
   font-size: 13px;
 }

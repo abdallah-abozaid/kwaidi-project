@@ -17,7 +17,13 @@ export default {
 </script>
 <style lang="scss" scoped>
 .breadcrumb {
-  font-size: 11px;
+  font-size: 12px;
+}
+.breadcrumb-item:first-of-type {
+  font-family: "DIN Next LT Arabic light", sans-serif;
+}
+.breadcrumb-item:last-of-type {
+  color: #9a9a9a;
 }
 .breadcrumb-item + .breadcrumb-item::before {
   float: right;

@@ -46,7 +46,7 @@
           </div>
         </div>
         <div class="Title col-12 col-md-4 order-1 mb-2 mb-md-0 order-md-2">
-          <p class="m-0">هلا بكم في كوايدي</p>
+          <p class="m-0">أهلا بكم في كوايدي</p>
         </div>
         <div class="StartSell col-6 col-md-4 order-2 order-md-3">
           <a href="/"
@@ -76,7 +76,7 @@ export default {
     a {
       background: #fff;
       border-radius: 20px;
-      font-size: 11px;
+      font-size: 12px;
       padding: 6px 20px;
       font-weight: 500;
       color: #3ac2cb !important;
@@ -86,16 +86,17 @@ export default {
       widows: 13px;
       height: 13px;
       display: inline-block;
-      margin-bottom: -8px;
+      margin-bottom: -2px;
     }
   }
   .Title {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
     color: #5f5f5f;
+    font-family: "DIN Next LT Arabic bold", sans-serif;
   }
   .dropdown a:hover,
   .dropdown *,

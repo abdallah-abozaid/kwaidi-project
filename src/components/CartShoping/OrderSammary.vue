@@ -1,6 +1,6 @@
 <template>
   <div class="OrderSammary py-2">
-    <h5>ملخص اجمالي الطلب</h5>
+    <h4>ملخص اجمالي الطلب</h4>
     <hr class="mt-1 mb-4" />
     <div class="d-flex">
       <p>عدد المتاجر المختارة :</p>
@@ -62,12 +62,13 @@ hr {
   border-color: #d9d9d9;
 }
 p {
-  font-size: 15px;
+  font-size: 16px;
   color: #5f5f5f;
   margin-bottom: 11px;
+  font-family: "DIN Next LT Arabic mediam", sans-serif;
 }
 .d-flex.justify-content-between > p:last-of-type {
-  font-weight: 600;
+  font-family: "DIN Next LT Arabic mediam", sans-serif;
 }
 .location {
   background: #fff;
@@ -117,7 +118,7 @@ p {
 }
 .total {
   p {
-    font-weight: 600;
+    font-family: "DIN Next LT Arabic bold", sans-serif;
     font-size: 13px;
     &:last-of-type {
       color: #3ac2cb;

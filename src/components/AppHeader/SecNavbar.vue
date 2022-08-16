@@ -128,7 +128,8 @@ export default {
     padding-top: 7px;
     &::placeholder {
       color: #9a9a9a;
-      font-size: 11px;
+      font-size: 12px;
+      font-family: "DIN Next LT Arabic mediam", sans-serif;
     }
   }
   .dropdown {
@@ -137,7 +138,9 @@ export default {
     align-items: center;
   }
   .dropdown * {
-    font-size: 12px;
+    font-size: 13px;
+    font-family: "DIN Next LT Arabic mediam", sans-serif;
+    color: rgba(95, 95, 95, 1);
   }
   .searchBtn {
     display: flex;
@@ -186,7 +189,7 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 // switch
@@ -264,6 +267,9 @@ input:checked + .slider:before {
 }
 nav a.router-link-exact-active {
   color: #3ac2cb;
+}
+nav a.router-link-exact-active .outer {
+  color: #fff;
 }
 //responsive
 @media (max-width: 992px) {

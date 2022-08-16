@@ -24,7 +24,7 @@
         </div>
         <div class="col-12 col-sm-4 col-md-4 col-lg-2 order-3 order-lg-2 mb-3">
           <div class="title">
-            <h6>روابط هامة</h6>
+            <h5>روابط هامة</h5>
           </div>
           <ul>
             <li>
@@ -43,7 +43,7 @@
         </div>
         <div class="col-12 col-sm-4 col-md-4 col-lg-2 order-4 order-lg-3 mb-3">
           <div class="title">
-            <h6>التعاون التجاري</h6>
+            <h5>التعاون التجاري</h5>
           </div>
           <ul>
             <li>
@@ -62,7 +62,7 @@
         </div>
         <div class="col-12 col-sm-4 col-md-4 col-lg-2 order-5 order-lg-4 mb-3">
           <div class="title">
-            <h6>خريطة الموقع</h6>
+            <h5>خريطة الموقع</h5>
           </div>
           <ul>
             <li>
@@ -81,7 +81,7 @@
         </div>
         <div class="col-12 col-sm-6 col-md-6 col-lg-3 order-2 order-lg-5 mb-3">
           <div>
-            <h6>معلومات التواصل</h6>
+            <h5>معلومات التواصل</h5>
           </div>
           <ul style="direction: ltr" class="last">
             <li>
@@ -124,24 +124,23 @@ export default {
     width: 130px;
   }
   .desc {
-    font-size: 10px;
+    font-size: 12px;
     color: #5f5f5f;
     text-transform: capitalize;
   }
   .info p {
-    font-size: 11px;
+    font-size: 12px;
     color: #5f5f5f;
   }
-  h6 {
+  h5 {
     color: #5f5f5f;
-    font-weight: 600;
     position: relative;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
   }
-  .title h6::after {
+  .title h5::after {
     content: "";
     position: absolute;
-    bottom: -5px;
+    bottom: -10px;
     right: 0px;
     width: 70px;
     height: 3px;
@@ -156,7 +155,7 @@ export default {
       margin-bottom: 20px;
       display: flex;
       align-items: center;
-      font-size: 12px;
+      font-size: 14px;
       transition: all 0.3s linear;
       &:hover {
         transform: translateY(-2px);

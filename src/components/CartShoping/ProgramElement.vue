@@ -126,7 +126,10 @@ export default {
       width: 70px;
     }
     .title {
-      margin-bottom: 5px;
+      font-size: 13px;
+      margin-bottom: 10px;
+      color: #5f5f5f !important;
+      font-family: "DIN Next LT Arabic bold", sans-serif;
     }
     .subtitle {
       font-size: 10px;
@@ -135,9 +138,11 @@ export default {
     .oldPrice {
       margin-bottom: 0px;
       font-size: 12px;
+      font-family: "DIN Next LT Arabic bold", sans-serif;
     }
     .newPrice {
       font-size: 11px;
+      font-family: "DIN Next LT Arabic bold", sans-serif;
       margin-bottom: 0px;
     }
     .inputs {

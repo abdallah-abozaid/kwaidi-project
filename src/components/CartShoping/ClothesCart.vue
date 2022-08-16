@@ -147,7 +147,7 @@ hr {
   }
   p {
     margin: 0 10px;
-    font-weight: 600;
+    font-family: "DIN Next LT Arabic bold", sans-serif;
     color: #5f5f5f;
     font-size: 13px;
   }
@@ -218,7 +218,7 @@ hr {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-weight: 600;
+  font-family: "DIN Next LT Arabic bold", sans-serif;
   font-size: 13px;
   p:first-of-type {
     color: #5f5f5f;
